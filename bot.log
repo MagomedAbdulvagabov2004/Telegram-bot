@@ -1,0 +1,1200 @@
+2024-09-25 13:44:02,779 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:46:49,912 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:46:49,912 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:46:57,895 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:47:39,312 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:47:39,312 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:47:42,827 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:47:43,922 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:47:43,922 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:47:48,010 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:47:50,475 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:51:27,965 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\telegram-bot.py", line 34, in find_email_handler
+    user_input = update.message.text
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-09-25 13:51:48,072 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:51:48,072 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:51:52,247 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:52:24,197 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:52:24,198 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:52:26,487 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:52:42,107 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:52:42,107 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:52:46,212 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:53:39,758 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:53:39,759 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:53:43,908 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 13:54:17,893 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 13:54:17,893 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 13:54:20,850 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 14:01:20,327 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 14:01:20,328 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-25 14:01:26,170 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-25 14:04:37,318 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-25 14:04:37,318 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 07:47:48,235 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 07:54:29,987 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 07:54:29,987 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 07:54:33,360 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 07:54:34,006 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 07:54:34,006 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 07:54:38,781 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 07:55:24,188 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 07:55:24,188 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 07:55:41,630 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 07:56:10,983 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 07:56:10,983 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 07:58:01,789 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 07:58:29,284 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 07:58:29,284 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 07:59:40,363 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 07:59:52,428 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 07:59:52,428 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:00:04,375 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:00:17,261 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:00:17,261 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:07:54,234 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:18:49,285 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:18:49,285 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:18:55,739 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:19:17,691 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 62, in check_password
+    passwd = set(password)
+             ^^^^^^^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 08:21:29,561 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:21:29,561 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:21:34,067 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:21:44,098 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 64, in check_password
+    passwd = set(password)
+             ^^^^^^^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 08:22:17,149 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:22:17,149 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:22:19,729 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:22:26,803 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 64, in check_password
+    passwd = set(password)
+             ^^^^^^^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 08:22:33,687 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:22:33,687 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:23:03,361 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:23:12,932 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:23:12,932 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:23:15,916 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:23:25,933 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 64, in check_password
+    passwd = set(context)
+             ^^^^^^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 08:23:30,728 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:23:30,728 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:24:05,771 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:24:18,969 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:24:18,969 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:24:29,270 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:24:50,631 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 64, in check_password
+    passwd = set(context)
+             ^^^^^^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 08:25:41,436 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:25:42,553 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:26:18,456 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:26:25,895 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 65, in check_password
+    if any(char not in acceptable for char in context):
+                                              ^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 08:26:42,714 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:26:42,714 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 08:26:46,484 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 08:27:00,805 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 65, in check_password
+    if any(char not in acceptable for char in context):
+                                              ^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 08:27:11,220 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 08:27:11,220 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:20:56,815 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:24:28,576 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:24:28,576 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:29:15,128 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:29:31,323 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:29:31,323 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:30:25,565 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:30:27,650 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:30:27,651 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:30:32,136 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:33:06,164 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:33:06,164 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:33:20,249 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:33:55,131 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:33:55,131 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:34:05,473 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:34:31,275 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:34:31,275 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:34:37,680 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:35:14,289 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:35:14,289 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:35:21,999 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:35:42,350 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:35:42,350 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:35:47,960 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:35:58,499 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:35:58,499 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:36:25,578 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:36:28,414 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:36:28,515 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:36:28,584 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 30, in get_release
+    update.message.reply_text(SSH.execute_command("cat /etc/os-release"))
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+2024-09-26 09:36:44,389 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:36:44,497 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:36:44,597 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 30, in get_release
+    update.message.reply_text(SSH.execute_command("cat /etc/os-release"))
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+2024-09-26 09:36:51,788 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:36:51,788 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:37:01,541 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:37:18,458 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:37:18,569 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:37:43,825 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:37:43,825 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:38:38,530 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:38:54,040 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:38:54,118 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:39:05,999 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 30, in get_release
+    update.message.reply_text(SSH.execute_command("cat /etc/os-release"))
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ChannelFile is not JSON serializable
+2024-09-26 09:39:16,450 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:39:16,450 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:43:16,500 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:43:32,250 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:43:32,351 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:43:34,686 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 30, in get_release
+    update.message.reply_text(SSH.execute_command("cat /etc/os-release"))
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+2024-09-26 09:44:48,909 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:44:49,592 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:45:35,404 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:45:47,014 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:45:47,128 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:46:05,595 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+2024-09-26 09:46:08,853 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:46:08,853 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:46:51,564 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:47:01,063 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:47:01,164 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:47:08,056 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ChannelStdinFile is not JSON serializable
+2024-09-26 09:47:12,959 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:47:12,959 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:47:38,621 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:47:47,133 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:47:47,223 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:47:49,040 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result.index(0).__str__())
+                              ^^^^^^^^^^^^^^^
+ValueError: tuple.index(x): x not in tuple
+2024-09-26 09:47:53,718 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:47:53,718 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:49:34,711 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:49:47,350 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:49:47,441 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:49:51,560 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 30, in get_release
+    result = SSH.execute_command("cat /etc/os-release")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\SSH.py", line 35, in execute_command
+    stdin.write('Hello world')
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\file.py", line 389, in write
+    self._write_all(data)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\file.py", line 507, in _write_all
+    count = self._write(data)
+            ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\channel.py", line 1362, in _write
+    self.channel.sendall(data)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\channel.py", line 844, in sendall
+    sent = self.send(s)
+           ^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\channel.py", line 799, in send
+    return self._send(s, m)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\channel.py", line 1196, in _send
+    raise socket.error("Socket is closed")
+OSError: Socket is closed
+2024-09-26 09:50:11,822 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:50:11,822 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:50:32,445 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:50:40,703 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:50:40,784 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:51:14,861 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:51:14,861 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:51:39,728 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:51:49,114 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:51:49,195 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:51:57,293 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ChannelFile is not JSON serializable
+2024-09-26 09:52:00,579 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:52:00,579 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:52:15,432 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:52:21,770 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:52:21,881 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:53:07,727 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:53:07,727 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:53:14,137 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:53:21,676 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:53:21,772 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:53:33,292 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Event is not JSON serializable
+2024-09-26 09:53:36,334 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:53:36,334 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:53:52,420 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:54:00,283 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:54:00,392 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:54:27,639 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:54:27,639 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:54:34,457 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:54:44,211 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:54:44,301 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:55:11,927 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:55:11,927 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 09:56:48,661 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 09:56:56,825 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 09:56:56,925 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 09:57:19,740 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 09:57:19,740 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:00:10,075 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:00:19,665 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 10:00:19,785 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 10:00:28,128 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 30, in get_release
+    result = SSH.execute_command("cat /etc/os-release")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\SSH.py", line 58, in execute_command
+    print(f'STDOUT: {stdout.read().decode("utf8")}')
+                     ^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\file.py", line 174, in read
+    raise IOError("File is closed")
+OSError: File is closed
+2024-09-26 10:00:34,151 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:00:34,151 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:01:00,564 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:01:06,884 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 10:01:06,984 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 10:01:18,234 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-09-26 10:01:28,814 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:01:28,814 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:01:41,221 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:01:50,303 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 10:01:50,423 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 10:02:50,486 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-09-26 10:03:07,998 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:03:07,998 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:04:10,615 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:04:17,444 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 10:04:17,528 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 10:04:40,189 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 31, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-09-26 10:06:24,243 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:06:24,243 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:06:31,428 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:06:44,192 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 10:06:44,277 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 10:07:39,623 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:07:39,623 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:14:03,447 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:14:27,398 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 65, in check_password
+    if any(char not in acceptable for char in context):
+                                              ^^^^^^^
+TypeError: 'CallbackContext' object is not iterable
+2024-09-26 10:14:43,592 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:14:43,592 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:15:11,662 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:15:19,535 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 100, in verify_password
+    if len(password) < 8:
+       ^^^^^^^^^^^^^
+TypeError: object of type 'CallbackContext' has no len()
+2024-09-26 10:15:25,085 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 100, in verify_password
+    if len(password) < 8:
+       ^^^^^^^^^^^^^
+TypeError: object of type 'CallbackContext' has no len()
+2024-09-26 10:15:34,255 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:15:34,255 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:15:37,762 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:15:47,264 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 100, in verify_password
+    if len(password) < 8:
+       ^^^^^^^^^^^^^
+TypeError: object of type 'CallbackContext' has no len()
+2024-09-26 10:15:53,593 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:15:53,593 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:16:24,177 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:16:28,888 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 100, in verify_password
+    if len(context) < 8:
+       ^^^^^^^^^^^^
+TypeError: object of type 'CallbackContext' has no len()
+2024-09-26 10:18:43,711 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:18:43,711 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:18:52,841 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:19:07,794 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:19:07,794 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:19:14,749 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:19:25,782 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:19:25,782 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:19:30,381 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:19:36,747 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 100, in verify_password
+    if len(context) < 8:
+       ^^^^^^^^^^^^
+TypeError: object of type 'CallbackContext' has no len()
+2024-09-26 10:19:46,420 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:19:46,420 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:19:50,526 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:19:57,613 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\telegram-bot.py", line 100, in verify_password
+    if len(context) < 8:
+       ^^^^^^^^^^^^
+TypeError: object of type 'CallbackContext' has no len()
+2024-09-26 10:20:08,722 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:20:08,722 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:21:20,588 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:22:01,744 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:22:01,744 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:23:45,785 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:24:08,884 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 10:24:08,954 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 10:25:09,558 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:25:09,568 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:26:32,963 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:26:44,635 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6)
+2024-09-26 10:26:44,760 - paramiko.transport - INFO - Authentication (password) successful!
+2024-09-26 10:26:59,710 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 32, in get_release
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 359, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Python-3.12\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2024-09-26 10:27:06,575 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:27:06,575 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:34:13,746 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:34:19,266 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 45, in get_release
+    stdin, stdout, stderr = client.exec_command(context)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\client.py", line 566, in exec_command
+    chan.exec_command(command)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\channel.py", line 70, in _check
+    return func(self, *args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\channel.py", line 252, in exec_command
+    m.add_string(command)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\paramiko\message.py", line 280, in add_string
+    self.add_int(len(s))
+                 ^^^^^^
+TypeError: object of type 'CallbackContext' has no len()
+2024-09-26 10:34:32,007 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:34:32,007 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:34:58,295 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:36:30,049 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:36:30,049 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 10:47:25,090 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 10:48:21,188 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 130, in get_ss
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Text is too long
+2024-09-26 10:49:51,958 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 130, in get_ss
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Text is too long
+2024-09-26 10:50:08,644 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\src\Telegram-Bot-SSH-connection-to-linux.py", line 130, in get_ss
+    update.message.reply_text(result)
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python-Telegram-bot\Telegram-Bot\.venv\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Text is too long
+2024-09-26 10:50:12,138 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 10:50:12,138 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 12:48:05,359 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 12:50:30,355 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 12:50:30,355 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 12:52:23,544 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 12:53:23,387 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 12:53:23,387 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-26 12:53:25,586 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-26 12:53:40,340 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-26 12:53:40,340 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-30 08:02:39,164 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-30 08:03:28,983 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-30 08:03:28,983 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-30 08:33:19,749 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-30 08:34:27,418 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-30 08:34:27,418 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-30 08:38:40,684 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-30 08:38:59,995 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-30 08:38:59,995 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-30 08:39:26,343 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-30 08:40:54,003 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-30 08:40:54,003 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-09-30 08:40:57,161 - apscheduler.scheduler - INFO - Scheduler started
+2024-09-30 08:41:03,141 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-09-30 08:41:03,141 - apscheduler.scheduler - INFO - Scheduler has been shut down
