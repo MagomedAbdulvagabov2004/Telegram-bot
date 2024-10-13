@@ -27,11 +27,11 @@ FILE_PATH = "C:/Users/User/Desktop/ReceivedFile.txt" # Замените на п�
 # Инициализация бота
 bot = Bot(token=BOT_TOKEN)
 
-def start(bot, update):
+def start(update, context):
   """Отправляет приветственное сообщение."""
   bot.send_message(chat_id=update.message.chat_id, text="Привет! Отправьте мне файл с текстом, я найду в нем номера телефонов и почту.")
 
-def handle_document(bot, update):
+def handle_document(update, context):
   """Обрабатывает входящий файл."""
   file_id = update.message.document.file_id
   file = bot.get_file(file_id)
