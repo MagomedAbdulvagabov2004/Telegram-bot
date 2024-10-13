@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = "2127491244:AAFLKvfN1grM8aR0gmzRqrShJo7IJHuKAX8" # Замените на ваш токен
 
 # Регулярные выражения для поиска телефонов и почты
-phone_regex = r"\+?\d{1,3}\s?(?\d{3})?\s?\d{3}\s?\d{4}" # Телефон
+phone_regex = r"((?:\+7|8)?[\s-]?\(?(\d{3})\)?[\s-]?(\d{3})[\s-]?(\d{2})[\s-]?(\d{2}))" # Телефон
 email_regex = r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)" # Почта
 
 # Файл с данными
