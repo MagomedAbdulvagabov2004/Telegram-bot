@@ -48,9 +48,9 @@ def handle_document(update, context):
   # Формирование ответа
   response = "Найденные данные:\n\n"
   if phones:
-    response += "**Номера телефонов:**\n" + "\n".join(phones) + "\n\n"
+    response += "**Номера телефонов:**\n" + "\n".join(map(str, phones)) + "\n\n"
   if emails:
-    response += "**Email адреса:**\n" + "\n".join(emails)
+    response += "**Email адреса:**\n" + "\n".join(map(str, emails))
 
   # Отправка ответа
   if response != "Найденные данные:\n\n":
