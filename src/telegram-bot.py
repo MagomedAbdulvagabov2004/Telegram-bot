@@ -45,7 +45,6 @@ def handle_document(update, context):
   phones = re.findall(phone_regex, text)
   emails = re.findall(email_regex, text)
 
-  phones = [(t[0],) for t in phones]
 
   # Формирование ответа
   response = "Найденные данные:\n\n"
