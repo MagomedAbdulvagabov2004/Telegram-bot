@@ -209,18 +209,21 @@ def save_emails_handler(update: Update, context):
     search_text = update.message.text
     email_regex = r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)"
     email_list = re.findall(email_regex, search_text)
-    try:
-        conn = psycopg2.connect(
-            host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD
-        )
-        cursor = conn.cursor()
-        for email in email_list:
-          cursor.execute(f"INSERT INTO emails (email) VALUES ('{email}')")
-        conn.commit()
-        bot.send_message(chat_id=chat_id, text="Email адреса успешно записаны.")
-        conn.close()
-    except Exception as e:
-      bot.send_message(chat_id=chat_id, text=f"Ошибка при записи: {e}")
+    if email_list:
+        try:
+            conn = psycopg2.connect(
+                host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD
+            )
+            cursor = conn.cursor()
+            for email in email_list:
+                cursor.execute(f"INSERT INTO emails (email) VALUES ('{email}')")
+            conn.commit()
+            bot.send_message(chat_id=chat_id, text="Email адреса успешно записаны.")
+            conn.close()
+        except Exception as e:
+            bot.send_message(chat_id=chat_id, text=f"Ошибка при записи: {e}")
+    else:
+        bot.send_message(chat_id=chat_id, text=f"Email адреса не найдены!")
 
     return ConversationHandler.END
 
