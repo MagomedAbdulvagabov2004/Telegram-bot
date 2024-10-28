@@ -24,10 +24,11 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = "2127491244:AAFLKvfN1grM8aR0gmzRqrShJo7IJHuKAX8" # Замените на ваш токен
 
 # Параметры подключения к PostgreSQL
-DB_HOST = "localhost"
+DB_HOST = "172.21.80.1"
 DB_NAME = "users"
 DB_USER = "postgres"
-DB_PASSWORD = "79EaSc##"
+DB_PASSWORD = "12345"
+DB_PORT = 5438
 
 
 # Регулярные выражения для поиска телефонов и почты
@@ -35,7 +36,7 @@ phone_regex = r"((?:\+7|8)?[\s-]?\(?(\d{3})\)?[\s-]?(\d{3})[\s-]?(\d{2})[\s-]?(\
 email_regex = r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)" # Почта
 
 # Файл с данными
-FILE_PATH = "C:/Users/User/Desktop/ReceivedFile.txt" # Замените на путь к вашему файлу
+FILE_PATH = "/usr/app/src" # Замените на путь к вашему файлу
 
 
 # Состояние диалога
@@ -52,8 +53,8 @@ bot = Bot(token=BOT_TOKEN)
 def start(update, context):
   """Отправляет приветственное сообщение."""
   bot.send_message(chat_id=update.message.chat_id, text="Привет! Вот что я умею:\n\n"
-                                                        "1) Находить почты и номера телефонов в текстовом файле\n\n"
-                                                        "2) Находить почты и номера телефонов в тексте, команда: /find_email /find_phone_numbers\n\n"
+                                                        "1) Находить почты и номера телефонов в текстовом файле (Отправьте файл)\n\n"
+                                                        "2) Находить почты и номера телефонов в тексте, команда: /find_email /find_phone_number\n\n"
                                                         "3) Проверять пароль на сложность, команда: /verify_password\n\n"
                                                         "4) Извлекать номера телефонов и почты из Базы Данных, команды: /get_emails, /get_phone_numbers\n\n"
                                                         "5) Записывать номера телефонов и почты в Базу Данных, команды: /save_emails, /save_phone_numbers")
@@ -161,7 +162,7 @@ def get_emails(update: Update, context):
     chat_id = update.message.chat_id
     try:
         conn = psycopg2.connect(
-            host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD
+            host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD, port=DB_PORT
         )
         cursor = conn.cursor()
         cursor.execute("SELECT email FROM emails")
@@ -181,7 +182,7 @@ def get_phone_numbers(update: Update, context):
     chat_id = update.message.chat_id
     try:
         conn = psycopg2.connect(
-            host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD
+            host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD, port=DB_PORT
         )
         cursor = conn.cursor()
         cursor.execute("SELECT phone_number FROM phone_numbers")
@@ -212,7 +213,7 @@ def save_emails_handler(update: Update, context):
     if email_list:
         try:
             conn = psycopg2.connect(
-                host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD
+                host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD, port=DB_PORT
             )
             cursor = conn.cursor()
             for email in email_list:
@@ -242,7 +243,7 @@ def save_phone_numbers_handler(update: Update, context):
   phone_numbers_list = re.findall(phone_numbers_regex, search_text)
   try:
     conn = psycopg2.connect(
-      host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD
+      host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD, port=DB_PORT
     )
     cursor = conn.cursor()
     for phone_number in phone_numbers_list:
