@@ -1,0 +1,7 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+logging
+psycopg2
+questionary
+pydantic
+python-telegram-bot==13.7
+urllib3==1.26.5
